@@ -29,7 +29,7 @@ function App() {
     <Route exact path='/c/:title'>
       <Collection/>
     </Route>
-    <Route exact path ='/profile'>
+    <Route path ='/profile'>
       <Profile/>
     </Route>
    </Switch>
